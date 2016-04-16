@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+.recipe-home {
+  background-color: #e9ebe7;
+  height: 400px;
+  margin-bottom: 70px;
+}
+
+.favorites-home {
+  background-color: #e9ebe7;
+  height: 700px;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+
+.image-wrapper > img {
+  width: 100%;
+  height: auto;
+  transition: .4s;
+}
+
+.image-wrapper > img:hover {
+  transform: scale(1.2,1.2);
+}
+
+.recipes-row {
+  margin-top: 20px;
+}

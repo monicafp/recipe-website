@@ -1,0 +1,67 @@
+#header-image-back {
+  width: 100%;
+  height: 79vh;
+  background-image: url('../images/header-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+      margin-bottom: 0;
+}
+
+.navbar.navbar-default {
+  background-image: none;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  display: flex;
+    animation: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-brand > img {
+  width: 118px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #e9ebe7;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #e9ebe7;
+}
+
+button {
+    background-color: transparent;
+}
+
+i {
+  color: #e9ebe7;
+}
+
+#footer {
+  background-color: #01455e;
+  text-align: center;
+}
+
+.emailicon, .githubicon {
+  width: 45px;
+  margin-top: 10px;
+}
+
+ul > li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#content {
+  background-color: #e2ded8;
+  padding: 70px 0;
+}
