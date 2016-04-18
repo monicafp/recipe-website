@@ -3,14 +3,17 @@ h1 {
 }
 
 .recipe-home {
-  background-color: #e9ebe7;
+  background-color: #FFFFFF;
   height: 400px;
   margin-bottom: 70px;
+  border-radius: 15px;
 }
 
 .favorites-home {
-  background-color: #e9ebe7;
+  background-color: #FFFFFF;
   height: 700px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .image-wrapper {

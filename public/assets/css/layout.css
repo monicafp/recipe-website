@@ -34,8 +34,17 @@
   color: #e9ebe7;
 }
 
+.navbar {
+  border: none;
+}
+
+.nav.navbar-nav {
+  font-family: 'Gentium Basic', serif;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  background-color: #e9ebe7;
+  border-bottom: medium solid #FFFFFF;
+  color: #FFFFFF;
 }
 
 button {
@@ -43,11 +52,11 @@ button {
 }
 
 i {
-  color: #e9ebe7;
+  color: #FFFFFF;
 }
 
 #footer {
-  background-color: #01455e;
+  background-color: #013008;
   text-align: center;
 }
 
@@ -62,6 +71,6 @@ ul > li {
 }
 
 #content {
-  background-color: #e2ded8;
+  background-color: #FAFDF6;
   padding: 70px 0;
 }

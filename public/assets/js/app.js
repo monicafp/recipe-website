@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     if ($(window).scrollTop() > ($(window).height() * 0.73)) {
-      $('#navigation').css('background-color', '#01455e');
+      $('#navigation').css('background-color', '#013008');
     } else {
       $('#navigation').css('background-color', 'transparent');
     }
