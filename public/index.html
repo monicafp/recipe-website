@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Chez Mónica</title>
+  <title>A la mesa</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
   <link rel="stylesheet" href="assets/css/layout.css">
   <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Gentium+Basic:700,400' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="assets/js/jquery.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
@@ -27,17 +27,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="assets/images/chez-monica-navbar.png" alt="Chez Mónica" /></a>
+          <a id="brand" class="navbar-brand" href="#">¡A LA MESA!</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Acerca de</a></li>
+            <li><a href="#" id="contact">Contactar</a></li>
+            <li><a href="#" id="about">Sobre nosotros</a></li>
             <li><a href="#">Colaboradores</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recetas <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <a  id="dropdown-li" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recetas <i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Desayuno</a></li>
                 <li><a href="#">Almuerzo y Cena</a></li>
@@ -62,17 +62,45 @@
     </nav>
   </header>
   <section id="header-image-back">
-    <img src="assets/images/chez-monica.png" alt="" />
+    <img src="assets/images/a-la-mesa.png" alt="" />
   </section>
 
 
   <main id="content">
   </main>
 
+<!--
+<section id="pre-footer">
+<p>
+  <h1>Placeholder</h1>
+</p>
+</section>
+-->
 
   <footer id="footer" class="navbar navbar-default">
     <div class="container-fluid">
       <div class="row">
+        <div class="col-xs-2 col-xs-offset-2">
+          <div class="footer-header"><span>Recetas recientes</span></div>
+          <ul class="footer-li">
+            <li>Receta 1</li>
+            <li>Receta 2</li>
+            <li>Receta 3</li>
+          </ul>
+        </div>
+        <div class="col-xs-2 col-xs-offset-1">
+          <div class="footer-header"><span>Top colaboradores</span></div>
+          <ul class="footer-li">
+            <li>Colaborador 1</li>
+            <li>Colaborador 2</li>
+            <li>Colaborador 3</li>
+          </ul>
+        </div>
+        <div class="col-xs-2 col-xs-offset-1">
+          <div class="footer-header"><span>Contactar</div></span>
+        </div>
+
+<!--
         <div class="col-xs-12">
           <ul>
             <li>
@@ -83,6 +111,8 @@
             </li>
           </ul>
         </div>
+-->
+
       </div>
     </div>
   </footer>

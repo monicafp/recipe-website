@@ -5,7 +5,7 @@ $(document).ready(function() {
   });
 
   // Links
-  $('#home').on('click', function() {
+  $('#brand').on('click', function() {
     $.get('home.html', function(data) {
       $('#content').html(data);
     });
@@ -13,6 +13,12 @@ $(document).ready(function() {
 
   $('#about').on('click', function() {
     $.get('about.html', function(data) {
+      $('#content').html(data);
+    });
+  });
+
+  $('#contact').on('click', function() {
+    $.get('contact.html', function(data) {
       $('#content').html(data);
     });
   });

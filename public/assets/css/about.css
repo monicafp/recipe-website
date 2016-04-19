@@ -1,0 +1,14 @@
+@font-face {
+  font-family: merriweather;
+  src: url(assets/fonts/Merriweather-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+h1 {
+  font-family: montserrat;
+  color: #013008;
+}

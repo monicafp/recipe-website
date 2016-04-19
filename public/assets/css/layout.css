@@ -11,7 +11,7 @@
 }
 
 .navbar {
-      margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .navbar.navbar-default {
@@ -19,11 +19,25 @@
   background-color: transparent;
 }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+}
+
+@font-face {
+  font-family: merriweather;
+  src: url(assets/fonts/Merriweather-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
 .navbar-brand {
   display: flex;
-    animation: center;
-    padding-left: 15px;
-    padding-right: 15px;
+  animation: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-brand > img {
@@ -31,15 +45,16 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #e9ebe7;
+  color: #FFFFFF;
+  font-family: merriweather;
+}
+
+.dropdown-menu > li > a {
+  font-family: merriweather;
 }
 
 .navbar {
   border: none;
-}
-
-.nav.navbar-nav {
-  font-family: 'Gentium Basic', serif;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -48,16 +63,20 @@
 }
 
 button {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 i {
   color: #FFFFFF;
+  font-size: larger;
 }
 
 #footer {
-  background-color: #013008;
+  background-color: #3A3E3B;
+  color: #FFFFFF;
   text-align: center;
+  border-radius: 0px;
+  padding: 50px 0;
 }
 
 .emailicon, .githubicon {
@@ -73,4 +92,40 @@ ul > li {
 #content {
   background-color: #FAFDF6;
   padding: 70px 0;
+}
+
+#pre-footer {
+  background-color: #3A3E3B;
+  padding: 40px 0;
+}
+
+#dropdown-li {
+  background-image: none;
+  color: #FFFFFF;
+}
+
+.footer-header {
+ font-family: montserrat;
+ font-size: large;
+ color: #E7E6F7;
+ margin-bottom: 20px;
+}
+
+.footer-li {
+  font-family: merriweather;
+  padding-left: 25px;
+
+}
+
+
+.footer-li > li {
+  display: block;
+  text-align: left;
+  font-size: larger;
+}
+
+.footer-header > span {
+    color: #E7E6F7;
+    border-bottom: 3px solid #013008;
+    padding-bottom: 10px;
 }
