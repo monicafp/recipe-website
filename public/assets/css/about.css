@@ -12,3 +12,10 @@ h1 {
   font-family: montserrat;
   color: #013008;
 }
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
