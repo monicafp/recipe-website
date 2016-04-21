@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+#a-la-mesa-logo {
+  height: 450px;
+}
+
 .navbar {
   margin-bottom: 0;
 }
