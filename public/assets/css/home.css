@@ -11,7 +11,7 @@ h1 {
 
 .favorites-home {
   background-color: #FFFFFF;
-  height: 880px;
+  height: 725px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -22,13 +22,13 @@ h1 {
   overflow: hidden;
 }
 
-.image-wrapper > img {
+.image-wrapper-recipes > img {
   width: 100%;
   height: auto;
   transition: .4s;
 }
 
-.image-wrapper > img:hover {
+.image-wrapper-recipes > img:hover {
   transform: scale(1.2,1.2);
 }
 
@@ -49,11 +49,17 @@ h1 {
 
 .image-wrapper-favorites {
   width: 90%;
-  height: 145px;
   overflow: hidden;
-  padding-left: 10px;
   margin-bottom: 15px;
   border-radius: 6px;
+  height: 114px;
+    width: 85%;
+    margin-left: 38px;
+}
+
+.image-wrapper-favorites > img {
+  width: 100%;
+    height: auto;
 }
 
 .title-favorites-section {
@@ -61,9 +67,7 @@ h1 {
 }
 
 .favorites-section-recipe-title {
-  padding-right: 0px;
-  padding-left: 0px;
-  display: flex;
-  align-items: center;
-  align-content: center;
+height: 130px;
+    padding-right: 35px;
+
 }

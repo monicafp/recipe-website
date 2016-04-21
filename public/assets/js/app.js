@@ -8,18 +8,21 @@ $(document).ready(function() {
   $('#brand').on('click', function() {
     $.get('home.html', function(data) {
       $('#content').html(data);
+      $('#header-image-back').removeClass('header-height-helper');
     });
   });
 
   $('#about').on('click', function() {
     $.get('about.html', function(data) {
       $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
     });
   });
 
   $('#contact').on('click', function() {
     $.get('contact.html', function(data) {
       $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
     });
   });
 

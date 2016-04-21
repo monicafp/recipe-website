@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   background-attachment: fixed;
+  transition: .4s;
 }
 
 #a-la-mesa-logo {
@@ -218,4 +219,12 @@ font-size: 12px;
 
 .modal-content {
   padding: 0 15px;
+}
+
+#formGroupExampleInput, #formGroupExampleInput2 {
+  padding-left: 30px;
+}
+
+.header-height-helper {
+  height: 50vh!important;
 }
