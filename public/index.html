@@ -7,6 +7,7 @@
   <title>A la mesa</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/layout.css">
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/contact.css">
@@ -48,18 +49,62 @@
               </ul>
             </li>
           </ul>
+
          <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Buscar">
             </div>
             <button type="submit" class="btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
           </form>
+
+        <li id="login" class="nav navbar-nav navbar-right">
+          <button id="login-button" type="button" data-toggle="modal" data-target="#myModal">Login</button>
+        </li>
+
         </div>
         <!-- /.navbar-collapse -->
       </div>
       <!-- /.container-fluid -->
     </nav>
   </header>
+
+
+
+  <div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div id="cd-login"> <!-- log in form -->
+  				<form class="cd-form">
+  					<p class="fieldset">
+  						<label class="image-replace cd-email" for="signin-email">Correo electrónico</label>
+  						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+  						<span class="cd-error-message">Error</span>
+  					</p>
+
+  					<p class="fieldset">
+  						<label class="image-replace cd-password" for="signin-password">Contraseña</label>
+  						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+  						<a href="#0" class="hide-password">Esconder</a>
+  						<span class="cd-error-message">Error</span>
+  					</p>
+
+  					<p class="fieldset">
+  						<input type="checkbox" id="remember-me" checked>
+  						<label for="remember-me">Recuérdame</label>
+  					</p>
+
+  					<p class="fieldset">
+  						<input class="full-width" type="submit" value="Login">
+  					</p>
+  				</form>
+
+  				<p class="cd-form-bottom-message"><a href="#0">¿Olvidaste tu contraseña?</a></p>
+  				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+  			</div> <!-- cd-login -->
+      </div>
+    </div>
+  </div>
+
 
 
   <section id="header-image-back">
@@ -70,13 +115,6 @@
   <main id="content">
   </main>
 
-<!--
-<section id="pre-footer">
-<p>
-  <h1>Placeholder</h1>
-</p>
-</section>
--->
 
   <footer id="footer" class="navbar navbar-default">
     <div class="container-fluid">
@@ -98,21 +136,12 @@
           </ul>
         </div>
         <div class="col-xs-2 col-xs-offset-1">
-          <div class="footer-header"><span>Contactar</div></span>
-        </div>
+          <div class="footer-header">
+            <span>Contactar</span>
 
-<!--
-        <div class="col-xs-12">
-          <ul>
-            <li>
-              <a href="mailto:monikfornaris@gmail.com"><img src="assets/images/email-icon-noun.png" class="emailicon" alt="Email icon by Jardson Almeida from Noun Project" title="Email. Icon by Jardson Almeida from Noun Project." target="_blank" /></a>
-            </li>
-            <li>
-              <a href="https://github.com/monicafp"><img src="assets/images/githubicon-noun.png" class="githubicon" alt="GitHub Repository icon by Richard Slater from Noun Project" title="GiHub Repository. Icon by Richard Slater from Noun Project." target="_blank" /></a>
-            </li>
-          </ul>
+          </div>
+
         </div>
--->
 
       </div>
     </div>
