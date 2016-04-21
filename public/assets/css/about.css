@@ -8,9 +8,10 @@
   src: url(assets/fonts/Montserrat-Regular.ttf);
 }
 
-h1 {
+h2 {
   font-family: montserrat;
   color: #013008;
+  text-align: center;
 }
 
 .flex-container {
@@ -18,4 +19,9 @@ h1 {
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+
+p {
+  font-family: merriweather;
 }
