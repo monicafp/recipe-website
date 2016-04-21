@@ -147,3 +147,67 @@ font-size: medium;
 #myModal {
   font-family: merriweather;
 }
+
+fieldset {
+  margin: 17px 10px;
+}
+
+#login-button-modal {
+  margin-bottom: 17px;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #013012;
+    border-color: none;
+    background-image: none;
+  }
+
+
+.cd-form-bottom-message {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -68px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cd-form-bottom-message a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+    width: 100%;
+}
+
+#form-title {
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: merriweather;
+}
+
+::-webkit-input-placeholder {
+ font-size: 14px;
+ color: #d0cdfa;
+ text-align: center;
+ font-weight: bold;
+}
+
+.form-icon {
+  position: absolute;
+    margin-top: 7px;
+    margin-left: 8px;
+  }
+
+div.checkbox {
+  margin-left: 10px;
+font-size: 12px;
+}
+
+.modal-content {
+  padding: 0 15px;
+}
