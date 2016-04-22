@@ -38,9 +38,6 @@
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: transparent;
-}
 
 .navbar-brand {
   display: flex;
@@ -66,7 +63,7 @@
   border: none;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .active {
   border-bottom: medium solid #FFFFFF;
   color: #FFFFFF;
 }
