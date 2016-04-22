@@ -23,6 +23,14 @@ $(document).ready(function() {
     });
   });
 
+  $('#dropdown-li').on('click', function() {
+    $.get('todas.html', function(data) {
+      $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
+      percent = 0.43;
+    });
+  });
+
   $('#desayuno').on('click', function() {
     $.get('desayuno.html', function(data) {
       $('#content').html(data);
