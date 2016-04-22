@@ -4,7 +4,27 @@ $(document).ready(function() {
   $.get('home.html', function(data) {
     $('#content').html(data);
     $('#search-box').hide();
+    if ($(window).width() < 768) {
+      console.log('hola');
+      $('#navigation').css('background-color', '#013008');
+    } else {
+      $('#navigation').css('background-color', 'transparent');
+    };
+    $('#brand').hide();
   });
+
+  $(window).resize(function() {
+    if ($(window).width() < 768) {
+      $('#navigation').css('background-color', '#013008');
+    } else {
+      if (!($(window).scrollTop() > ($(window).height() * percent))) {
+        $('#navigation').css('background-color', 'transparent');
+      }
+    };
+  });
+
+  
+
 
   // Links
   $('#brand').on('click', function() {
@@ -84,14 +104,23 @@ $(document).ready(function() {
   $(window).scroll(function() {
     if ($(window).scrollTop() > ($(window).height() * percent)) {
       $('#navigation').css('background-color', '#013008');
+      $('#brand').show();
     } else {
-      $('#navigation').css('background-color', 'transparent');
+      if ($(window).width() > 768) {
+        $('#navigation').css('background-color', 'transparent');
+        $('#brand').hide();
+      }
     }
   });
 
   $('.navbar-nav li a').on('click', function() {
     $('.active').removeClass('active');
     $(this).toggleClass('active');
+  });
+
+  $('#brand').on('click', function() {
+    $('.active').removeClass('active');
+    $(this).toggleClass('active-brand');
   });
 
   $('#search-button').on('click', function() {
@@ -103,5 +132,8 @@ $(document).ready(function() {
     $('#contact').toggleClass('active');
   });
 
+  $('.navbar-nav li a').on('click', function(){
+     $('.navbar-collapse').removeClass('in');
+  })
 
 });
