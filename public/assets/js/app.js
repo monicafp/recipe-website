@@ -71,6 +71,14 @@ $(document).ready(function() {
     });
   });
 
+  $('#contact-footer').on('click', function() {
+    $.get('contact.html', function(data) {
+      $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
+      percent = 0.42;
+    });
+  });
+
   // Events that need to be listened upon change
 
   $(window).scroll(function() {
@@ -88,6 +96,11 @@ $(document).ready(function() {
 
   $('#search-button').on('click', function() {
     $('#search-box').toggle('400');
+  });
+
+  $('#contact-footer').on('click', function(){
+    $('.active').removeClass('active');
+    $('#contact').toggleClass('active');
   });
 
 
