@@ -23,6 +23,38 @@ $(document).ready(function() {
     });
   });
 
+  $('#desayuno').on('click', function() {
+    $.get('desayuno.html', function(data) {
+      $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
+      percent = 0.43;
+    });
+  });
+
+  $('#almuerzo-cena').on('click', function() {
+    $.get('almuerzo-cena.html', function(data) {
+      $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
+      percent = 0.43;
+    });
+  });
+
+  $('#postre').on('click', function() {
+    $.get('postre.html', function(data) {
+      $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
+      percent = 0.43;
+    });
+  });
+
+  $('#bebidas').on('click', function() {
+    $.get('bebidas.html', function(data) {
+      $('#content').html(data);
+      $('#header-image-back').addClass('header-height-helper');
+      percent = 0.43;
+    });
+  });
+
   $('#contact').on('click', function() {
     $.get('contact.html', function(data) {
       $('#content').html(data);
