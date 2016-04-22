@@ -47,7 +47,7 @@ $(document).ready(function() {
   });
 
   $('#search-button').on('click', function() {
-    $('#search-box').toggle();
+    $('#search-box').toggle('400');
   });
 
 

@@ -108,6 +108,11 @@ ul > li {
 #dropdown-li {
   background-image: none;
   color: #FFFFFF;
+  background: transparent;
+}
+
+.dropdown-menu {
+  background-color: #E7E6F7;
 }
 
 .footer-header {
@@ -224,4 +229,8 @@ font-size: 12px;
 
 .header-height-helper {
   height: 50vh!important;
+}
+
+#search-box {
+  font-family: merriweather;
 }
