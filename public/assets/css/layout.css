@@ -82,7 +82,7 @@ i {
   color: #FFFFFF;
   text-align: center;
   border-radius: 0px;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 
 .emailicon, .githubicon {
@@ -233,4 +233,17 @@ font-size: 12px;
 
 #search-box {
   font-family: merriweather;
+}
+
+#footer-disclaimer {
+  margin-top: 80px;
+    background-color: rgba(0,0,0, 0.1);
+    color: #999;
+    text-align: left;
+    padding: 10px 0;
+}
+
+#footer-disclaimer p {
+  margin: 0;
+  font-size: small;
 }
