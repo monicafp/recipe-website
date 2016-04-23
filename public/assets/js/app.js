@@ -5,7 +5,6 @@ $(document).ready(function() {
     $('#content').html(data);
     $('#search-box').hide();
     if ($(window).width() < 768) {
-      console.log('hola');
       $('#navigation').css('background-color', '#013008');
     } else {
       $('#navigation').css('background-color', 'transparent');
@@ -22,8 +21,6 @@ $(document).ready(function() {
       }
     };
   });
-
-  
 
 
   // Links
@@ -134,6 +131,6 @@ $(document).ready(function() {
 
   $('.navbar-nav li a').on('click', function(){
      $('.navbar-collapse').removeClass('in');
-  })
+  });
 
 });

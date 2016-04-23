@@ -155,6 +155,10 @@ font-family: merriweather;
 font-size: medium;
 }
 
+#login-button:focus {
+  outline: 0;
+}
+
 #login {
   margin-top: 8px;
 }
@@ -237,6 +241,10 @@ font-size: 12px;
 
 #search-box {
   font-family: merriweather;
+}
+
+#search-button:focus {
+  outline: 0;
 }
 
 #footer-disclaimer {

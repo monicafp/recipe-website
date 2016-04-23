@@ -38,9 +38,19 @@ span {
     border: none;
     border-radius: 3px;
     height: 45px;
+    font-weight: bold;
 }
 
 .input-text {
   width: 200px;
   height: 45px;
+}
+
+#send-button:hover {
+  background-color: #013008;
+  color: #E7E6F7;
+}
+
+::-webkit-input-placeholder {
+  color: #013008;
 }
