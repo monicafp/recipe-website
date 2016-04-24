@@ -27,7 +27,17 @@
   height: 450px;
 }
 
+#brand-image-forks {
+    padding-top: 5px;
+    width: 85px;
+    height: 45px;
+}
 
+#brand-image-words {
+  height: 27px;
+margin-top: 13px;
+margin-left: 2px;
+}
 
 .navbar {
   margin-bottom: 0;
@@ -42,12 +52,7 @@
 .navbar-brand {
   display: flex;
   animation: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.navbar-brand > img {
-  width: 200px;
+  padding: 0 15px 0 15px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -263,9 +268,4 @@ font-size: 12px;
 #contact-footer {
   text-decoration: none;
   color: #E7E6F7;
-}
-
-#brand {
-  margin-left: 0px;
-    padding: 0;
 }
