@@ -1,22 +1,16 @@
+.general-info-recipe-modal {
+  height: 240px;
+}
+
 .image-wrapper-recipes {
-  width: 100%;
   height: 240px;
   overflow: hidden;
+  width: 100%;
 }
 
 .image-wrapper-recipes > img {
   width: 100%;
   height: auto;
-}
-
-.general-info-recipe-modal {
-  height: 240px;
-}
-
-.recipe-title-modal {
-  font-weight: bold;
-  font-family: montserrat;
-
 }
 
 .recipe-colaborator-modal {
@@ -25,4 +19,9 @@
 
 .recipe-source-modal {
   font-family: merriweather;
+}
+
+.recipe-title-modal {
+  font-family: montserrat;
+  font-weight: bold;
 }

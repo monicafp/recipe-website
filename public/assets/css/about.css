@@ -9,19 +9,18 @@
 }
 
 h2 {
-  font-family: montserrat;
   color: #013008;
+  font-family: montserrat;
   text-align: center;
 }
 
-.flex-container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-
 p {
   font-family: merriweather;
+}
+
+.flex-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }

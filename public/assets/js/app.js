@@ -1,5 +1,7 @@
 $(document).ready(function() {
+
   var percent = 0.73;
+
   // Init
   $.get('home.html', function(data) {
     $('#content').html(data);
@@ -96,8 +98,8 @@ $(document).ready(function() {
     });
   });
 
-  // Events that need to be listened upon change
 
+  // Events that need to be listened upon change
   $(window).scroll(function() {
     if ($(window).scrollTop() > ($(window).height() * percent)) {
       $('#navigation').css('background-color', '#013008');
@@ -115,48 +117,40 @@ $(document).ready(function() {
     $(this).toggleClass('active');
   });
 
-//  $('#brand').on('click', function() {
-//    $('.active').removeClass('active');
-//    $(this).toggleClass('active-brand');
-//  });
-
   $('#search-button').on('click', function() {
     $('#search-box').toggle('400');
   });
 
-  $('#contact-footer').on('click', function(){
+  $('#contact-footer').on('click', function() {
     $('.active').removeClass('active');
     $('#contact').toggleClass('active');
   });
 
-
-  $('.navbar-nav li a').on('click', function(){
-     $('.navbar-collapse').removeClass('in');
+  $('.navbar-nav li a').on('click', function() {
+    $('.navbar-collapse').removeClass('in');
   });
 
-
-
-  /// trials for dropdown
+  /// trials for dropdown issue on mobile view
 
 
   //  if ($(window).width() < 768) {
   //    $('.navbar-nav li a').on('click', function(){
   //       $('.navbar-collapse').addClass('in');
-//       });
-//         $('.navbar-nav li a').on('click', function(){
-//            $('.navbar-collapse').removeClass('in')
-//         });
-//    } else {
-//    };
+  //       });
+  //         $('.navbar-nav li a').on('click', function(){
+  //            $('.navbar-collapse').removeClass('in')
+  //         });
+  //    } else {
+  //    };
 
 
   //    $('#dropdown-li').on('click', function(){
-//        $('#dropdown-li').attr('aria-expanded', 'true');
+  //        $('#dropdown-li').attr('aria-expanded', 'true');
   //      $('li.dropdow').addClass('open');
-//      });
+  //      });
 
 
 
-  /// end trials for dropdow
+  /// end trials for dropdown issue on mobile view
 
 });

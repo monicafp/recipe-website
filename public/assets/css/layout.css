@@ -8,77 +8,24 @@
   src: url(assets/fonts/Montserrat-Regular.ttf);
 }
 
-
-#header-image-back {
-  width: 100%;
-  height: 79vh;
-  background-image: url('../images/header-image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-attachment: fixed;
-  transition: .4s;
-}
-
-#a-la-mesa-logo {
-  height: 450px;
-}
-
-#brand-image-forks {
-    padding-top: 5px;
-    width: 85px;
-    height: 45px;
-}
-
-#brand-image-words {
-  height: 27px;
-margin-top: 13px;
-margin-left: 2px;
-}
-
-.navbar {
-  margin-bottom: 0;
-}
-
-.navbar.navbar-default {
-  background-image: none;
-  background-color: transparent;
-}
-
-
-.navbar-brand {
-  display: flex;
-  animation: center;
-  padding: 0 15px 0 15px;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #FFFFFF;
-  font-family: merriweather;
-}
-
-.dropdown-menu > li > a {
-  font-family: merriweather;
-}
-
-.navbar {
-  border: none;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .active {
-  border-bottom: medium solid #FFFFFF;
-  color: #FFFFFF;
-}
-
-.active-brand {
-  border-bottom: thin solid #FFFFFF;
+::-webkit-input-placeholder {
+  color: #d0cdfa;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
 }
 
 button {
   background-color: transparent;
+}
+
+div.checkbox {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+fieldset {
+  margin: 17px 10px;
 }
 
 i {
@@ -86,116 +33,29 @@ i {
   font-size: larger;
 }
 
-#footer {
-  background-color: #3A3E3B;
-  color: #FFFFFF;
-  text-align: center;
-  border-radius: 0px;
-  padding: 50px 0 0 0;
-}
-
-.emailicon, .githubicon {
-  width: 45px;
-  margin-top: 10px;
-}
-
 ul > li {
   display: inline;
   margin: 0 5px;
 }
 
-#content {
-  background-color: #FAFDF6;
-  padding: 70px 0;
+.active-brand {
+  border-bottom: thin solid #FFFFFF;
 }
-
-#pre-footer {
-  background-color: #3A3E3B;
-  padding: 40px 0;
-}
-
-#dropdown-li {
-  background-image: none;
-  color: #FFFFFF;
-  background: transparent;
-}
-
-.dropdown-menu {
-  background-color: #E7E6F7;
-}
-
-.footer-header {
- font-family: montserrat;
- font-size: large;
- color: #E7E6F7;
- margin-bottom: 20px;
-}
-
-.footer-li {
-  font-family: merriweather;
-  padding-left: 25px;
-
-}
-
-
-.footer-li > li {
-  display: block;
-  text-align: left;
-  font-size: larger;
-}
-
-.footer-header > span {
-    color: #E7E6F7;
-    border-bottom: 3px solid #013008;
-    padding-bottom: 10px;
-}
-
-#login-button {
-  color: #013008;
-    border: none;
-border-radius: 5px;
-padding: 6px 47px;
-background-color: #E7E6F7;
-font-family: merriweather;
-font-size: medium;
-}
-
-#login-button:focus {
-  outline: 0;
-}
-
-#login {
-  margin-top: 8px;
-}
-
-#myModal {
-  font-family: merriweather;
-}
-
-fieldset {
-  margin: 17px 10px;
-}
-
-#login-button-modal {
-  margin-bottom: 17px;
-}
-
 
 .btn-primary {
-    color: #fff;
-    background-color: #013012;
-    border-color: none;
-    background-image: none;
-  }
-
+  background-color: #013012;
+  background-image: none;
+  border-color: none;
+  color: #fff;
+}
 
 .cd-form-bottom-message {
-  position: absolute;
-  width: 100%;
-  left: 0;
   bottom: -68px;
-  text-align: center;
   font-size: 16px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 .cd-form-bottom-message a {
@@ -203,45 +63,193 @@ fieldset {
   text-decoration: underline;
 }
 
-.flex-container {
-  display: flex;
-    width: 100%;
+.dropdown-menu {
+  background-color: #E7E6F7;
 }
 
-#form-title {
-  font-size: 20px;
-  margin-left: 10px;
+.dropdown-menu > li > a {
   font-family: merriweather;
 }
 
-::-webkit-input-placeholder {
- font-size: 14px;
- color: #d0cdfa;
- text-align: center;
- font-weight: bold;
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+.footer-header {
+  color: #E7E6F7;
+  font-family: montserrat;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.footer-header > span {
+  border-bottom: 3px solid #013008;
+  color: #E7E6F7;
+  padding-bottom: 10px;
+}
+
+.footer-li {
+  font-family: merriweather;
+  padding-left: 25px;
+}
+
+.footer-li > li {
+  display: block;
+  font-size: larger;
+  text-align: left;
 }
 
 .form-icon {
+  margin: 7px 0 0 8px;
   position: absolute;
-    margin-top: 7px;
-    margin-left: 8px;
-  }
+}
 
-div.checkbox {
-  margin-left: 10px;
-font-size: 12px;
+.header-height-helper {
+  height: 50vh!important;
 }
 
 .modal-content {
   padding: 0 15px;
 }
 
+.navbar {
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar.navbar-default {
+  background-color: transparent;
+  background-image: none;
+}
+
+.navbar-brand {
+  animation: center;
+  display: flex;
+  padding: 0 15px 0 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .active {
+  border-bottom: medium solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+  font-family: merriweather;
+}
+
+#a-la-mesa-logo {
+  height: 450px;
+}
+
+#brand-image-forks {
+  height: 45px;
+  padding-top: 5px;
+  width: 85px;
+}
+
+#brand-image-words {
+  height: 27px;
+  margin: 13px 0 0 2px;
+}
+
+#contact-footer {
+  color: #E7E6F7;
+  text-decoration: none;
+}
+
+#content {
+  background-color: #FAFDF6;
+  padding: 70px 0;
+}
+
+#dropdown-li {
+  background: transparent;
+  background-image: none;
+  color: #FFFFFF;
+}
+
+
+#footer {
+  background-color: #3A3E3B;
+  border-radius: 0px;
+  color: #FFFFFF;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+#footer-disclaimer {
+  background-color: rgba(0,0,0, 0.1);
+  color: #999;
+  margin-top: 80px;
+  padding: 10px 0;
+  text-align: left;
+}
+
+#footer-disclaimer p {
+  margin: 0;
+  font-size: small;
+}
+
 #formGroupExampleInput, #formGroupExampleInput2 {
   padding-left: 30px;
 }
 
-.header-height-helper {
-  height: 50vh!important;
+#form-title {
+  font-family: merriweather;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#header-image-back {
+  align-items: center;
+  background-attachment: fixed;
+  background-image: url('../images/header-image.jpg');
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 79vh;
+  justify-content: center;
+  transition: .4s;
+  width: 100%;
+}
+
+#login {
+  margin-top: 8px;
+}
+
+#login-button {
+  background-color: #E7E6F7;
+  border: none;
+  border-radius: 5px;
+  color: #013008;
+  font-family: merriweather;
+  font-size: medium;
+  padding: 6px 47px;
+}
+
+#login-button:focus {
+  outline: 0;
+}
+
+#login-button-modal {
+  margin-bottom: 17px;
+}
+
+#login-button-modal:focus, #login-button-modal:hover, {
+  background-color: #E7E6F7;
+  color: #013008;
+}
+
+#myModal {
+  font-family: merriweather;
+}
+
+#pre-footer {
+  background-color: #3A3E3B;
+  padding: 40px 0;
 }
 
 #search-box {
@@ -250,22 +258,4 @@ font-size: 12px;
 
 #search-button:focus {
   outline: 0;
-}
-
-#footer-disclaimer {
-  margin-top: 80px;
-    background-color: rgba(0,0,0, 0.1);
-    color: #999;
-    text-align: left;
-    padding: 10px 0;
-}
-
-#footer-disclaimer p {
-  margin: 0;
-  font-size: small;
-}
-
-#contact-footer {
-  text-decoration: none;
-  color: #E7E6F7;
 }
